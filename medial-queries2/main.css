@@ -1,3 +1,76 @@
 body {
-  background: papayawhip;
+  background: blanchedalmond;
+}
+.container {
+  width: 80%;
+  height: px;
+  margin: 0 auto;
+  border: 5px solid;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.container1 {
+  display: flex;
+  order: 2;
+}
+.a {
+  width: 150px;
+  height: 50px;
+  padding: 1em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: 100%;
+}
+.b {
+  width: 200px;
+  height: 100px;
+  padding: 1em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: 75%;
+  order: 1;
+}
+.c {
+  width: 50px;
+  height: auto;
+  padding: .5em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: 1%;
+}
+.d {
+  width: 50px;
+  height: auto;
+  padding: .5em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: 1%;
+}
+.e {
+  width: 50px;
+  height: auto;
+  padding: .5em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: 1%;
+}
+.f {
+  flex-basis: auto;
+  height: 147px;
+  padding: .5em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: 1;
+  justify-content: center;
+  order: 3;
+  display: flex;
 }
